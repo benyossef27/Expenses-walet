@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Expenses-walet/static/css/main.b07ebd53.css",
+    "main.js": "/Expenses-walet/static/js/main.35d1cae2.js",
+    "index.html": "/Expenses-walet/index.html",
+    "main.b07ebd53.css.map": "/Expenses-walet/static/css/main.b07ebd53.css.map",
+    "main.35d1cae2.js.map": "/Expenses-walet/static/js/main.35d1cae2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b07ebd53.css",
+    "static/js/main.35d1cae2.js"
+  ]
+}
