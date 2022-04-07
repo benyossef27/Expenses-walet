@@ -1,6 +1,6 @@
 A React.js project that demos a simple expenses record app
 
-App demp()
+[click here to visit the App demo](https://benyossef27.github.io/Expenses-walet/)
 
 # Getting Started with Create React App
 
