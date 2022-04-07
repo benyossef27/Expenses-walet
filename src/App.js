@@ -29,8 +29,8 @@ export default function App() {
   const [expenses, setExpenses] = useState(dummy__expenses);
 
   function addExpenseHandler(expense) {
-    setExpenses((Expenses) => {
-      return [expense, ...Expenses];
+    setExpenses((prvExpenses) => {
+      return [expense, ...prvExpenses];
     });
   }
   return (

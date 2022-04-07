@@ -11,6 +11,7 @@ export default function NewExpense(props) {
       id: Math.random().toString(),
     };
     props.onAddExpense(expenseData);
+    setIsEditing(false);
   }
   function startEditing() {
     setIsEditing(true);
@@ -20,17 +21,13 @@ export default function NewExpense(props) {
   }
   return (
     <div className="new-expense">
-      {!isEditing && (
-        <button className="new-expense button" onClick={startEditing}>
-          Add new expense
-        </button>
-      )}
+      {!isEditing && <button onClick={startEditing}>Add new expense</button>}
       {isEditing && (
         <ExpenseForm
           onSaveExpenseData={saveExpenseDataHendler}
           onCancel={stopEditing}
         />
-      )}{" "}
+      )}
     </div>
   );
 }
